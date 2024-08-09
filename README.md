@@ -1,2 +1,2 @@
 # inovatech-academy
-Aplicação da Inovatech Academy - Teste
+Aplicação da Inovatech Academy
