@@ -7,5 +7,5 @@
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="" title="" src="https://raw.githubusercontent.com/RicardoRibeiroJunior/inovatech-academy/main/src/assets/login.png" width="400px">
+  <img alt="" title="" src="https://raw.githubusercontent.com/RicardoRibeiroJunior/inovatech-academy/inovatech-academy-client/main/src/assets/login.png" width="400px">
 </p>
