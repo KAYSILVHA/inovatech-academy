@@ -3,19 +3,11 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
     :root{
-        --white: #ffffff;
-    
-        --gray-100: #e1e1e6;
-        --gray-300: #c4c4cc;
-        --gray-400: #8d8d99;
-        --gray-600: #323238;
-        --gray-700: #29292e;
-        --gray-800: #202024;
-        --gray-900: #121214;
-
-        --green-300: #00B37E;
-        --green-500: #00875f;
-
+        --white: #FFFFFF;
+        --font: #F5F5FF;
+        --black: #121214;
+        --green: #00FF7E;
+        --gray-100: #3D3D3D;
         --red-500: #F75A68;
     }
 
@@ -31,13 +23,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: var(--white);
-        color: var(--gray-900);
+        background-color: var(--black);
+        color: var(--font);
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button{
-        font: 400 1rem Roboto, sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
     }
 
 `
